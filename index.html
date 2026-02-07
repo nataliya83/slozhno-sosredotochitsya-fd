@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light">
     <title>Сложно сосредоточиться</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/dark.css">
+    <link rel="stylesheet" href="./styles/light.css">
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
-    <header class="header decorated-zone">
+    <header class="header decor-angles">
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -35,6 +45,121 @@
           </li>
         </ul>
       </nav>
+      <h1 class="header__title">no focus</h1>
+      <p class="header__title_description title-decor">Что делать, когда не можешь делать ничего<br>
+Или почему нам так сложно сконцентрироваться, особенно когда очень надо</p>
+      <span class="header__rec" aria-hidden="true">REC</span>
+    
     </header>
+    
+    
+    
+    <main clas="content">
+        <article class="content content__section">
+          <h2 class="content content__section__title">Почему сосредоточиться так сложно</h2>
+          <div class="content content__section text-block">
+            <h3 class="content__section__subtitle"></h3>
+            <p class="content__section__ text-description"></p>
+          </div>
+        </article>
+
+      </>
+      
+    </main>
+    <footer class="footer decor-angles">
+      <p class="footer__slogan">focus</p>
+    </footer>
+
+    <!--
+    
+    
+ 
+    
+    
+    
+    
+    
+    
+    <section class="section section__spacing-normal">
+        <div class="section__header">
+          <h2 class="section__title">Почему сосредоточиться так сложно
+          </h2>
+        </div>
+        <div class="section__content">
+          <div class="content-group">
+        <h3 class="section__subtitle">Многозадачность</h3>
+          <p class="section__text">Особенно сложно сосредоточиться... Исследователи <a class="content__link" href="https://dana.org/news-and-insights/" target="_blank">выяснили</a>, что ...
+          </p>
+          </div>
+          <div class="content-group">
+        <h3 class="section__subtitle">Дофамин
+        </h3>
+          <p class="section__text">С гормонами стресса всё понятно, ...
+          </p>
+        </div>
+        </div>
+      </section>
+
+.section {
+  padding-inline: clamp(10px, calc(10px + (100vw - 375px) * 0.0254), 20px);
+  display: grid;
+}
+
+.section__spacing-normal { 
+  padding-block-start: 40px; 
+  padding-block-end: 0; 
+}
+
+.section__spacing-extra  { 
+  padding-block-start: 50px; 
+  padding-block-end: 0;
+}
+
+.section__header { 
+  grid-column: 1; 
+}
+
+.section__content { 
+  display: grid; 
+}
+
+.section__title,
+.section__subtitle,
+.section__subtitle_generic,
+.section__subtitle__bullet,
+.section__subtitle__gallery {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.section__title {
+  color: var(--accent-color);
+}
+
+.section__subtitle {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.section__text {
+  width: 100%;
+  max-width: none;
+  color: var( --text-color);
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0;
+  font-size: 18px;
+}
+
+
+
+
+    -->
+    
   </body>
 </html>
