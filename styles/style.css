@@ -1,7 +1,7 @@
 
 .page {
-  background-color: var(--bg-color), #000028;
-  background-image: var(--bg-image), url(../images/cover-image-dark.png);
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -9,11 +9,11 @@
   display: flex;
   flex-flow: column nowrap;
   gap: 40px;
-  font-family: var(--font-family), 'IBM Plex mono', sans-serif;
-  font-size: var(--text-size), 18px;
-  line-height: var(--line-height), 23.4px;
-  font-weight: var(--font-normal), 400;
-  color: var(--text-color), #F1B2CE;
+  font-family: var(--font-family);
+  font-size: var(--text-size);
+  line-height: var(--line-height);
+  font-weight: var(--font-normal);
+  color: var(--text-color);
 }
 
 .header {
@@ -38,7 +38,7 @@
 }
 
 .header__theme-menu-button {
-  color: var(--button-color), rgb(255, 0, 112);
+  color: var(--button-color);
   background-color: transparent;
   text-transform: lowercase;
   line-height: 100%;
@@ -58,28 +58,28 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--button-color-hover), rgba(255, 0, 112, 0.4);
+  border: 1px solid var(--button-color-hover);
 }
 .header__title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  color: var(--title-color), #DB00FF;
-  text-shadow: 4px 4px 0 var(--accent-color), #FF0070;
+  color: var(--title-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 82.5%;
 }
 
 .header__title-description {
-  font-weight: var(--font-bold), 700;
-  color: var(--subtitle-color), #000028;
+  font-weight: var(--font-bold);
+  color: var(--subtitle-color);
   block-size: fit-content;
   align-self: center;
 }
 
 .title-decor {
-  background-color: var(--accent-color), #FF0070;
+  background-color: var(--accent-color);
 }
 
 .header__decor-rec {
-  color: var(--accent-color), #FF0070;
+  color: var(--accent-color);
   text-transform: uppercase;
   position: absolute;
   margin: 10px;
@@ -95,9 +95,9 @@
   height: 9px;
   top: 8px;
   right: -19px;
-  background-color: var(--accent-color), #FF0070;
+  background-color: var(--accent-color);
   border-radius: 50%;
-  box-shadow: 0 0 4px 2px var(--accent-color), #FF0070;
+  box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
 .decor-angles::after {
@@ -107,8 +107,8 @@
   right: 0;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--decor-angles-color), #FF0070;
-  border-right: 1px solid var(--decor-angles-color), #FF0070;
+  border-top: 1px solid var(--decor-angles-color);
+  border-right: 1px solid var(--decor-angles-color);
   margin: 10px;
 }
 
@@ -119,8 +119,8 @@
   bottom: 0;
   width: 25px;
   height: 25px;
-  border-left: 1px solid var(--decor-angles-color), #FF0070;
-  border-bottom: 1px solid var(--decor-angles-color), #FF0070;
+  border-left: 1px solid var(--decor-angles-color);
+  border-bottom: 1px solid var(--decor-angles-color);
   margin: 10px;
 }
 
@@ -131,17 +131,17 @@
 }
 
 .content__section-title {
-  color: var(--content-title-color), #FF0070;
-  font-weight: var(--font-bold), 700;
+  color: var(--content-title-color);
+  font-weight: var(--font-bold);
   font-size: inherit;
   margin-block-end: 20px;
 }
 
 .content__section-subtitle,
 .content__section-subsubtitle {
-  font-weight: var(--font-bold), 700;
+  font-weight: var(--font-bold);
   font-size: inherit;
-  color: var(--subtitle-color), #000028;
+  color: var(--subtitle-color);
   margin-block-end: 10px;
 }
 
@@ -150,11 +150,11 @@
 }
 
 .content__section-subsubtitle {
-  font-weight: var(--font-normal), 400;
+  font-weight: var(--font-normal);
 }
 
 .link {
-  text-shadow: 1.5px 1.5px 0 var(--accent-color), #FF0070;
+  text-shadow: 1.5px 1.5px 0 var(--accent-color);
 }
 
 .link:hover {
@@ -190,10 +190,10 @@
 
 .footer__slogan {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  color: var(--title-color), #DB00FF;
-  text-shadow: 4px 4px 0 var(--accent-color), #FF0070;
+  color: var(--title-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 82.5%;
-  font-weight: var(--font-bold), 700;
+  font-weight: var(--font-bold);
 }
 
 @media (width >= 768px) {
