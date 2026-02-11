@@ -10,9 +10,9 @@
   flex-flow: column nowrap;
   gap: 40px;
   font-family: var(--font-family), 'IBM Plex mono', sans-serif;
-  font-size: var(--text-size, 18px);
-  line-height: var(--line-height, 23.4px);
-  font-weight: var(--font-normal, 400);
+  font-size: var(--text-size), 18px;
+  line-height: var(--line-height), 23.4px;
+  font-weight: var(--font-normal), 400;
   color: var(--text-color), #F1B2CE;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .header__theme-menu-button {
-  color: var(--button-color);
+  color: var(--button-color), rgb(255, 0, 112);
   background-color: transparent;
   text-transform: lowercase;
   line-height: 100%;
@@ -269,12 +269,12 @@
   .what-section .content__section-text-block {
     grid-row: 2 / auto;
     grid-column: 1 / span 3;
-  } 
-
+  }
+  
   .how-to-section .content__section-title {
     grid-column: 1 / 2; 
   }
-
+  
   .how-to-section .content__section-text-block {
     grid-row: 1 / auto;
     grid-column: 2 / 4;
