@@ -145,14 +145,15 @@
 
 .content__section-card {
   margin-block-start: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .content__section-subtitle {
   font-weight: var(--font-bold);
   font-size: inherit;
   color: var(--subtitle-color);
-  margin-block-end: 10px;
-  
 }
 
 .font-lighter {
@@ -174,6 +175,14 @@
 .link:focus-visible {
   outline: none;
   border: 1px solid currentColor;
+}
+
+.list .content__section-card {
+  margin-block-start: 10px;
+}
+
+.content__gallery-section .content__section-subtitle {
+  margin-block-end: 10px;
 }
 
 .gallery {
